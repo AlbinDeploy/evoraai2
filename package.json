@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
+    "@types/nodemailer": "^7.0.11",
     "@types/pdf-parse": "^1.1.5",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.6",
