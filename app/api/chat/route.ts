@@ -4,7 +4,7 @@ import { chatMessages, chats, files, users } from '@/db/schema';
 import { requireUser } from '@/lib/auth';
 import { ensureChatQuota } from '@/lib/quota';
 import { getRequestIp } from '@/lib/request';
-import { enforceRateLimit } from '@/lib/rate-limit';
+import { enforceRateLimit } from '@/lib/enforce-rate-limit';
 import { generateChatResponse } from '@/lib/gemini';
 import { truncate } from '@/lib/utils';
 

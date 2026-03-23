@@ -6,7 +6,7 @@ import { ensureUploadQuota } from '@/lib/quota';
 import { env } from '@/lib/env';
 import { classifyFile, extractTextFromFile } from '@/lib/file-parser';
 import { getRequestIp } from '@/lib/request';
-import { enforceRateLimit } from '@/lib/rate-limit';
+import { enforceRateLimit } from '@/lib/enforce-rate-limit';
 import { writeAuditLog } from '@/lib/audit';
 
 export async function POST(request: Request) {

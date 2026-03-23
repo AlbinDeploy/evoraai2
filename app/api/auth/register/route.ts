@@ -7,7 +7,7 @@ import { env } from '@/lib/env';
 import { createAuthToken } from '@/lib/token';
 import { sendMail } from '@/lib/mailer';
 import { getRequestIp } from '@/lib/request';
-import { enforceRateLimit } from '@/lib/rate-limit';
+import { enforceRateLimit } from '@/lib/enforce-rate-limit';
 import { writeAuditLog } from '@/lib/audit';
 
 export async function POST(request: Request) {
